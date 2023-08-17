@@ -3,9 +3,9 @@ public class Circle {
     private double radius;
 
     public Circle(double radius) {
-        // Checks for invalid input.
         this.radius = (radius < 0) ? 0 : radius;
                                     }
+    
              public double getRadius() {
                  return radius;
                                        }
